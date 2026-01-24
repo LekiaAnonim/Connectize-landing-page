@@ -30,10 +30,6 @@
             transform: rotate(15deg);
         }
 
-        .hero-bg-div{
-            height: 110dvh;
-            z-index: -10;
-        } 
 
         .handshake{
             object-fit: cover;
@@ -48,7 +44,7 @@
             @media (max-width:500px) {
                 object-fit: contain;
                 scale: 1.95;
-                top: 10%;
+                top: 20%;
             }
 
         }
